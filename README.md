@@ -2,11 +2,14 @@
 [DEMO] Osbot's new landing page after boomer years
 
 
-CURRENT
+CURRENT DESIGN
 ![](https://i.imgur.com/ywaFuCW.jpeg)
 ![](https://i.imgur.com/alNO53k.png)
 
-MOCKUP DESIGN
+NEW DESIGN
 
-Nav, Hero
+Nav
+![](https://i.imgur.com/FI3xkTR.gif)
+
+Hero
 ![](https://i.imgur.com/e2BEiyO.png)
