@@ -9,7 +9,7 @@ CURRENT DESIGN
 NEW DESIGN
 
 Nav
-![](https://i.imgur.com/FI3xkTR.gif)
+![](https://i.imgur.com/shNFgft.gif)
 
 Hero
-![](https://i.imgur.com/e2BEiyO.png)
+![](https://i.imgur.com/7zAw0JU.png)
