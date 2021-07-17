@@ -25,4 +25,4 @@ Faq
 ![](https://i.imgur.com/4jvHBts.png)
 
 Footer
-![](https://i.imgur.com/aAYFAg1.png)
+![](https://i.imgur.com/g83EpVc.png)
