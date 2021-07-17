@@ -74,7 +74,9 @@ Nav, Hero
 Feature
 
 ![](https://i.imgur.com/P0AhNRQ.png)
+
 ![](https://i.imgur.com/qxfGANW.png)
+
 ![](https://i.imgur.com/JXXaAQW.png)
 
 FAQ, Footer
