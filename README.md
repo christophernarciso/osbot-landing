@@ -17,3 +17,12 @@ Hero
 Feature
 ![](https://i.imgur.com/V0hodPP.png)
 ![](https://i.imgur.com/8qUmRH7.png)
+
+Pricing Model
+TODO
+
+Faq
+![](https://i.imgur.com/4jvHBts.png)
+
+Footer
+![](https://i.imgur.com/aAYFAg1.png)
