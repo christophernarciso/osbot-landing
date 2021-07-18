@@ -129,31 +129,70 @@
     }
 
     &__nigiri {
-        dt, a:hover {
+        dt {
+            background: $purple;
+            background-image: url('/images/vip.png');
+            background-repeat: no-repeat;
+            background-position: center center;
+
+            @include breakpoint-up(medium) {
+                background-size: 65%;
+            }
+        }
+
+        a:hover {
             background: $purple;
         }
 
-        dd, a {
+        dd,
+        a {
+            text-align: center;
             background: #8255A9;
         }
     }
 
     &__maki {
-        dt, a:hover {
+        dt {
+            background: $cyan;
+            background-image: url('/images/sponsor.png');
+            background-repeat: no-repeat;
+            background-position: center center;
+
+            @include breakpoint-up(medium) {
+                background-size: 65%;
+            }
+        }
+
+        a:hover {
             background: $cyan;
         }
 
-        dd, a {
+        dd,
+        a {
+            text-align: center;
             background: #00BBE3;
         }
     }
 
     &__sashimi {
-        dt, a:hover {
+        dt {
+            background: $darkCyan;
+            background-image: url('/images/lifetimesponsor.png');
+            background-repeat: no-repeat;
+            background-position: center center;
+
+            @include breakpoint-up(medium) {
+                background-size: 65%;
+            }
+        }
+
+        a:hover {
             background: $darkCyan;
         }
 
-        dd, a {
+        dd,
+        a {
+            text-align: center;
             background: #009597;
         }
     }

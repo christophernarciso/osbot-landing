@@ -16,7 +16,8 @@
     }
 
     &__outro {
-        margin-top: 7.75rem;
+        margin-top: 3.75rem;
+        margin-bottom: 7.75rem;
 
         @include breakpoint-up(large) {
             width: 70%;

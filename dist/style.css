@@ -402,6 +402,13 @@ ion-icon {
 
 .hero {
   background-color: #fafafa;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 64em) {
+  .hero {
+    padding-bottom: 7rem;
+  }
 }
 
 @media (min-width: 64em) {
@@ -521,7 +528,8 @@ ion-icon {
 }
 
 .feature__outro {
-  margin-top: 7.75rem;
+  margin-top: 3.75rem;
+  margin-bottom: 7.75rem;
 }
 
 @media (min-width: 64em) {
@@ -725,27 +733,72 @@ ion-icon {
   background: #E42692;
 }
 
-.benefit__nigiri dt, .benefit__nigiri a:hover {
+.benefit__nigiri dt {
+  background: #7500A0;
+  background-image: url("/images/vip.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media (min-width: 40em) {
+  .benefit__nigiri dt {
+    background-size: 65%;
+  }
+}
+
+.benefit__nigiri a:hover {
   background: #7500A0;
 }
 
-.benefit__nigiri dd, .benefit__nigiri a {
+.benefit__nigiri dd,
+.benefit__nigiri a {
+  text-align: center;
   background: #8255A9;
 }
 
-.benefit__maki dt, .benefit__maki a:hover {
+.benefit__maki dt {
+  background: #00D2FF;
+  background-image: url("/images/sponsor.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media (min-width: 40em) {
+  .benefit__maki dt {
+    background-size: 65%;
+  }
+}
+
+.benefit__maki a:hover {
   background: #00D2FF;
 }
 
-.benefit__maki dd, .benefit__maki a {
+.benefit__maki dd,
+.benefit__maki a {
+  text-align: center;
   background: #00BBE3;
 }
 
-.benefit__sashimi dt, .benefit__sashimi a:hover {
+.benefit__sashimi dt {
+  background: #3BBFC1;
+  background-image: url("/images/lifetimesponsor.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media (min-width: 40em) {
+  .benefit__sashimi dt {
+    background-size: 65%;
+  }
+}
+
+.benefit__sashimi a:hover {
   background: #3BBFC1;
 }
 
-.benefit__sashimi dd, .benefit__sashimi a {
+.benefit__sashimi dd,
+.benefit__sashimi a {
+  text-align: center;
   background: #009597;
 }
 
