@@ -1,5 +1,5 @@
 # osbot-landing-page
-Basic mockup of osbots current home page.
+
 
 
 # CURRENT DESIGN (Desktop)
