@@ -9,7 +9,15 @@
 
     &__intro {
         margin-bottom: 3.75rem;
-        
+
+        @include breakpoint-up(large) {
+            width: 70%;
+        }
+    }
+
+    &__outro {
+        margin-top: 7.75rem;
+
         @include breakpoint-up(large) {
             width: 70%;
         }
@@ -36,6 +44,7 @@
             flex: 1;
             min-width: 300px;
             max-width: 300px;
+
             &:not(:last-child) {
                 margin-right: 25px;
                 margin-bottom: 25px;

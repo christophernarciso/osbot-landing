@@ -35,7 +35,9 @@ p {
     margin-bottom: 2.25rem;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-weight: 400;
     line-height: 1.15;
     color: $darkBlue;
@@ -84,6 +86,7 @@ a:hover {
             padding-bottom: 6rem;
         }
     }
+
     &--py {
         padding-top: 4.375rem;
         padding-bottom: 4.375rem;
@@ -93,10 +96,12 @@ a:hover {
             padding-bottom: 6rem;
         }
     }
+
     &--px {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
+
     &--pt {
         padding-top: 4.375rem;
 
@@ -104,9 +109,11 @@ a:hover {
             padding-top: 6rem;
         }
     }
+
     &--pr {
         padding-right: 1.5rem;
     }
+
     &--pb {
         padding-bottom: 4.375rem;
 
@@ -114,6 +121,7 @@ a:hover {
             padding-bottom: 6rem;
         }
     }
+
     &--pl {
         padding-left: 1.5rem;
     }
@@ -145,13 +153,14 @@ a:hover {
 }
 
 // Buttons
-button, .button {
+button,
+.button {
     display: inline-block;
     padding: 0.775rem 1.7875rem;
     background: linear-gradient(to right, $roseRed, $darkBlue);
     border: 0;
     border-radius: 50px;
-    cursor: pointer; 
+    cursor: pointer;
     color: $white;
     font-weight: 400;
     font-size: $font-sm;
@@ -176,6 +185,6 @@ button, .button {
 }
 
 ion-icon {
-  font-size: 18px;
-  vertical-align: middle;
+    font-size: 18px;
+    vertical-align: middle;
 }

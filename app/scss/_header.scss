@@ -5,24 +5,26 @@
         .overlay {
             display: block;
         }
+
         .header__toggle {
+
             // First bar
-            > span:first-child {
+            >span:first-child {
                 transform: rotate(45deg);
             }
-        
+
             // Remove second on transition
-            > span:nth-child(2) {
+            >span:nth-child(2) {
                 opacity: 0;
             }
 
             // Last bar
-            > span:last-child {
+            >span:last-child {
                 transform: rotate(-45deg);
             }
         }
     }
-    
+
     .overlay {
         z-index: 1;
         position: fixed;
@@ -50,7 +52,7 @@
 
     // Mobile menu toggle
     &__toggle {
-        > span {
+        >span {
             z-index: 2;
             display: block;
             width: 26px;
@@ -111,6 +113,7 @@
 
             &:hover {
                 color: $roseRed;
+
                 &::before {
                     opacity: 1;
                 }
