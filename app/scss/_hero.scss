@@ -36,11 +36,6 @@
             min-height: 40rem;
         }
 
-        &::before,
-        &::after {
-            //border: 1px solid magenta;
-        }
-
         &::before {
 
             @include breakpoint-up(large) {
