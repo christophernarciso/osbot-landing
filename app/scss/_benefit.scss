@@ -125,7 +125,7 @@
     &__nigiri {
         dt {
             background: $purple;
-            background-image: url('./images/vip.png');
+            background-image: url('../images/vip.png');
             background-repeat: no-repeat;
             background-position: center center;
 
@@ -148,7 +148,7 @@
     &__maki {
         dt {
             background: $cyan;
-            background-image: url('./images/sponsor.png');
+            background-image: url('../images/sponsor.png');
             background-repeat: no-repeat;
             background-position: center center;
 
@@ -171,7 +171,7 @@
     &__sashimi {
         dt {
             background: $darkCyan;
-            background-image: url('./images/lifetimesponsor.png');
+            background-image: url('../images/lifetimesponsor.png');
             background-repeat: no-repeat;
             background-position: center center;
 
@@ -194,15 +194,16 @@
     &__neon-text {
         color: #fff;
         font-size: $font-sm;
-        text-shadow:
-            0 0 5px #fff,
-            0 0 10px #fff,
-            0 0 15px #202020,
-            0 0 20px #B40027,
-            0 0 35px #B40027,
-            0 0 40px #B40027,
-            0 0 60px #B40027,
-            0 0 90px #B40027
+        text-shadow: $maroon 1px 1px;
+        // text-shadow:
+        //     0 0 5px #fff,
+        //     0 0 10px #fff,
+        //     0 0 15px #202020,
+        //     0 0 20px #B40027,
+        //     0 0 35px #B40027,
+        //     0 0 40px #B40027,
+        //     0 0 60px #B40027,
+        //     0 0 90px #B40027
     }
 
     ion-icon {

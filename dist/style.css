@@ -657,7 +657,7 @@ ion-icon {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("./images/client.png");
+  background-image: url("../images/client.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -925,7 +925,7 @@ ion-icon {
 
 .benefit__nigiri dt {
   background: #7500A0;
-  background-image: url("./images/vip.png");
+  background-image: url("../images/vip.png");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -948,7 +948,7 @@ ion-icon {
 
 .benefit__maki dt {
   background: #00D2FF;
-  background-image: url("./images/sponsor.png");
+  background-image: url("../images/sponsor.png");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -971,7 +971,7 @@ ion-icon {
 
 .benefit__sashimi dt {
   background: #3BBFC1;
-  background-image: url("./images/lifetimesponsor.png");
+  background-image: url("../images/lifetimesponsor.png");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -995,7 +995,7 @@ ion-icon {
 .benefit__neon-text {
   color: #fff;
   font-size: 0.875rem;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #202020, 0 0 20px #B40027, 0 0 35px #B40027, 0 0 40px #B40027, 0 0 60px #B40027, 0 0 90px #B40027;
+  text-shadow: #64051A 1px 1px;
 }
 
 .benefit ion-icon {
