@@ -191,19 +191,10 @@
         }
     }
 
-    &__neon-text {
-        color: #fff;
+    &__bottom-text {
+        color: $veryLightGray;
         font-size: $font-sm;
-        text-shadow: $maroon 1px 1px;
-        // text-shadow:
-        //     0 0 5px #fff,
-        //     0 0 10px #fff,
-        //     0 0 15px #202020,
-        //     0 0 20px #B40027,
-        //     0 0 35px #B40027,
-        //     0 0 40px #B40027,
-        //     0 0 60px #B40027,
-        //     0 0 90px #B40027
+        font-weight: bold;
     }
 
     ion-icon {

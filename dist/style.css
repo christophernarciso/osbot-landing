@@ -992,10 +992,10 @@ ion-icon {
   background: #009597;
 }
 
-.benefit__neon-text {
-  color: #fff;
+.benefit__bottom-text {
+  color: #fafafa;
   font-size: 0.875rem;
-  text-shadow: #64051A 1px 1px;
+  font-weight: bold;
 }
 
 .benefit ion-icon {
