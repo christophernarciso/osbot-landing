@@ -9,14 +9,8 @@
 
 
 
-# NEW DESIGN (Desktop)
+# NEW DESIGN
+https://cnar.dev/projects/pages/osbot/
 
-![](https://i.imgur.com/Qr8ddgh.png)
 
-# NEW DESIGN (Tablet)
 
-![](https://i.imgur.com/AdFHboh.png)
-
-# NEW DESIGN (Mobile)
-
-![](https://i.imgur.com/0zjkQLK.png)
