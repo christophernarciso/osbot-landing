@@ -782,24 +782,31 @@ ion-icon {
 }
 
 .feature__title {
-  font-size: 3.25rem;
+  font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.15;
   color: #fafafa;
   margin-bottom: 1rem;
 }
 
-@media (min-width: 64em) {
+@media (min-width: 40em) {
   .feature__title {
+    font-size: 3.25rem;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
   }
 }
 
 .feature__description {
-  font-size: 1.25rem;
+  font-size: 0.875rem;
   line-height: 1;
   color: #fafafa;
+}
+
+@media (min-width: 40em) {
+  .feature__description {
+    font-size: 1.25rem;
+  }
 }
 
 .benefit {
@@ -833,13 +840,16 @@ ion-icon {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-@media (max-width: 39.9375em) {
+@media (min-width: 64em) {
   .benefit__grid {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 

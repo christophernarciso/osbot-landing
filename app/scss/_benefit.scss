@@ -23,9 +23,10 @@
         flex-direction: row;
         flex-wrap: wrap;
         flex: 1;
+        justify-content: center;
 
-        @include breakpoint-down(small) {
-            justify-content: center;
+        @include breakpoint-up(large) {
+            justify-content: space-between;
         }
     }
 
@@ -47,9 +48,6 @@
         transform-style: preserve-3d;
 
         text-transform: uppercase;
-        // position: absolute;
-        // margin-left: -140px;
-
 
         a {
             display: block;
