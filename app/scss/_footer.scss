@@ -54,7 +54,7 @@
       }
 
       &:hover svg path {
-        fill: $limeGreen;
+        fill: $darkRed;
       }
     }
 
@@ -98,7 +98,7 @@
       transition: color 150ms ease-in-out;
 
       &:hover {
-        color: $limeGreen;
+        color: $darkRed;
       }
     }
   }

@@ -1,5 +1,6 @@
 .feature {
-    background-color: $veryLightGray;
+    // background-color: $veryLightGray;
+    background-color: $darkGray;
     text-align: center;
 
     @include breakpoint-up(medium) {
@@ -34,8 +35,12 @@
     &__item {
         border: solid 2px $darkRed;
         border-radius: 10px;
-        background-color: $lightGrayishBlue;
+        background: rgba(20,20,20,0.2);
         padding: 0.9375rem;
+
+        @include breakpoint-down(small) {
+            margin-bottom: 3.125rem;
+        }
 
         @include breakpoint-up(medium) {
             flex: 0 0 50%;
@@ -47,26 +52,26 @@
             max-width: 300px;
 
             &:not(:last-child) {
-                margin-right: 25px;
-                margin-bottom: 25px;
+                margin-right: 3.125rem;
+                margin-bottom: 3.125rem;
             }
         }
     }
 
     &__icon {
-        width: 3.125rem;
-        margin-bottom: 1.875rem;
+        margin-bottom: 1.175rem;
 
-        @include breakpoint-up(large) {
-            width: 4.6875rem;
+        ion-icon {
+            color: $veryLightGray;
+            font-size: $font-xl;
         }
     }
 
     &__title {
-        font-size: 1.25rem;
+        font-size: $font-xl;
         font-weight: 400;
         line-height: 1.15;
-        color: $darkBlue;
+        color: $veryLightGray;
         margin-bottom: 1rem;
 
         @include breakpoint-up(large) {
@@ -76,7 +81,8 @@
     }
 
     &__description {
-        font-size: 1rem;
-        line-height: 1.5;
+        font-size: $font-lg;
+        line-height: 1;
+        color: $veryLightGray;
     }
 }

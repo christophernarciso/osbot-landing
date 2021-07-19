@@ -16,7 +16,8 @@ body {
     font-size: $font-med;
     font-weight: 300;
     background-color: $black;
-    color: $grayishBlue;
+    // color: $grayishBlue;
+    color: $white;
     line-height: 1.3;
     overflow-x: hidden;
 
@@ -40,7 +41,7 @@ h2,
 h3 {
     font-weight: 400;
     line-height: 1.15;
-    color: $darkBlue;
+    color: $darkRed;
     margin-top: 0px;
 }
 
@@ -157,7 +158,8 @@ button,
 .button {
     display: inline-block;
     padding: 0.775rem 1.7875rem;
-    background: linear-gradient(to right, $roseRed, $darkBlue);
+    // background: linear-gradient(to right, $roseRed, $darkBlue);
+    background: $darkRed;
     border: 0;
     border-radius: 50px;
     cursor: pointer;
@@ -170,6 +172,8 @@ button,
         opacity: 0.75;
     }
 }
+
+
 
 // Visibility
 .hide-for-mobile {

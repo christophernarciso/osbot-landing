@@ -38,7 +38,6 @@
     nav {
         z-index: 3;
         position: relative;
-        background-color: $black;
         padding-top: 1.0625rem;
         padding-bottom: 1.0625rem;
     }
@@ -102,7 +101,8 @@
                 left: 0;
                 right: 0;
                 bottom: -30px;
-                background: linear-gradient(to right, $roseRed, purple);
+                // background: linear-gradient(to right, $roseRed, purple);
+                background: $roseRed;
                 opacity: 0;
                 transition: opacity 300ms ease-in-out;
             }

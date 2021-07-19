@@ -42,12 +42,6 @@ for (var link of mobileLinks) {
   });
 }
 
-// Copyright purposes
-const footerDate = document.getElementsByClassName("footer__year");
-if (footerDate) {
-  footerDate[0].innerHTML = new Date().getFullYear();
-}
-
 // When the user clicks on the button, smooth scroll to the top of the document
 // Credit: https://gist.github.com/ricardozea/abb9f98a19f6d04a0269
 function topFunction() {

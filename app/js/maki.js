@@ -447,14 +447,15 @@ if ($.fn.makisu.enabled) {
         speed: 0.5
     });
 
-    // Open all
-
-    $('.benefit__list').makisu('open');
-
     // Toggle on click
 
     $('.benefit__toggle').on('click', function () {
         $('.benefit__list').makisu('toggle');
+    });
+
+    $('.benefit__outro__btn').on('click', function () {
+        // Open all
+        $('.benefit__list').makisu('open');
     });
 
     // Disable all links
@@ -467,3 +468,23 @@ if ($.fn.makisu.enabled) {
 
     $('.warning').show();
 }
+
+// Create the observer
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        // If the element is visible
+        if (entry.isIntersecting) {
+            const name = entry.target.id;
+            if (name === 'benefits') {
+                // Add the animation class
+                $('.benefit__list').makisu('open');
+            } else if (name === 'hero_img') {
+                // Add the animation class
+                entry.target.classList.add('expand-animation');
+            }
+        }
+    });
+});
+
+// Tell the observer which elements to track
+observer.observe(document.querySelector('.benefit'));

@@ -1,5 +1,6 @@
 .hero {
-    background-color: $veryLightGray;
+    // background-color: $veryLightGray;
+    background-color: $darkGray;
     padding-bottom: 3rem;
 
     @include breakpoint-up(large) {

@@ -1,5 +1,6 @@
 .benefit {
-    background-color: $veryLightGray;
+    // background-color: $veryLightGray;
+    background-color: $darkGray;
     text-align: center;
     padding-bottom: 1.995rem;
 
@@ -38,7 +39,7 @@
 
         h2 {
             // text-transform: uppercase;
-            text-shadow: -2px -1px 1px #fff, 1px 1px 1px rgba(0, 0, 0, 0.15);
+            // text-shadow: -2px -1px 1px #fff, 1px 1px 1px rgba(0, 0, 0, 0.15);
             // font-weight: 400;
             // color: rgba(0,0,0,0.7);
             // margin: 0;
@@ -195,5 +196,25 @@
             text-align: center;
             background: #009597;
         }
+    }
+
+    &__neon-text {
+        color: #fff;
+        font-size: $font-sm;
+        text-shadow:
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #202020,
+            0 0 20px #B40027,
+            0 0 35px #B40027,
+            0 0 40px #B40027,
+            0 0 60px #B40027,
+            0 0 90px #B40027
+    }
+
+    ion-icon {
+        color: yellow;
+        vertical-align: middle;
+        font-size: $font-lg;
     }
 }
