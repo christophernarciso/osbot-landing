@@ -257,6 +257,7 @@ a:hover {
 .container {
   max-width: 85.375rem;
   margin: 0 auto;
+  border: 0;
 }
 
 .container--pxy {
@@ -371,6 +372,43 @@ button,
 button:hover,
 .button:hover {
   opacity: 0.75;
+  color: white;
+  -webkit-box-shadow: 0 5px 15px rgba(255, 34, 53, 0.4);
+          box-shadow: 0 5px 15px rgba(255, 34, 53, 0.4);
+}
+
+.divider {
+  border-bottom: 1px solid #B40027;
+  margin-top: 25px;
+}
+
+.center-link {
+  text-align: center;
+}
+
+.center-link a {
+  display: inline-block;
+  text-align: center;
+}
+
+.scrollup-btn {
+  width: 100px;
+  background: #B40027;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+  font-size: 0.875rem;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+}
+
+.scrollup-btn:hover {
+  opacity: 0.75;
+  color: white;
+  -webkit-box-shadow: 0 5px 15px rgba(255, 34, 53, 0.4);
+          box-shadow: 0 5px 15px rgba(255, 34, 53, 0.4);
 }
 
 @media (max-width: 63.9375em) {
@@ -832,26 +870,15 @@ ion-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-@media (min-width: 64em) {
-  .benefit__grid {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
 }
 
 .benefit__heading {
@@ -859,10 +886,82 @@ ion-icon {
   width: 100%;
 }
 
-@media (min-width: 64em) {
-  .benefit__heading {
-    text-align: left;
+.benefit__pricing {
+  text-align: center;
+  background: rgba(20, 20, 20, 0.2);
+  color: white;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid #64051A;
+  min-width: 275px;
+}
+
+@media (max-width: 63.9375em) {
+  .benefit__pricing {
+    min-height: 500px;
   }
+}
+
+@media (min-width: 64em) {
+  .benefit__pricing {
+    min-height: 550px;
+  }
+}
+
+.benefit__pricing .button {
+  display: inline-block;
+  padding: 0.775rem 1.7875rem;
+  background: #B40027;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+  font-size: 0.875rem;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+}
+
+.benefit__pricing .button:hover {
+  opacity: 0.75;
+}
+
+.benefit__pricing ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 40px 0;
+}
+
+.benefit__pricing ul li {
+  text-align: center;
+  margin: 20px 30px;
+}
+
+.benefit__pricing h1 {
+  letter-spacing: 1px;
+  margin: 15px 0 0;
+}
+
+.benefit__pricing h4 {
+  margin: 20px 0 0;
+}
+
+.benefit__pricing .vip {
+  font-size: 1.25rem;
+}
+
+.benefit__pricing .sponsor {
+  color: #3BBFC1;
+}
+
+.benefit__pricing .popular {
+  color: #B40027;
+  margin: 0;
+  text-shadow: 0 5px 15px rgba(245, 107, 107, 0.4);
+}
+
+.benefit__pricing button {
+  margin-bottom: 30px;
 }
 
 .benefit__list {
@@ -1010,9 +1109,70 @@ ion-icon {
 }
 
 .benefit ion-icon {
-  color: yellow;
+  color: #fafafa;
   vertical-align: middle;
   font-size: 1.25rem;
+}
+
+.stats {
+  padding-bottom: 10rem;
+  padding-top: 10rem;
+}
+
+.stats h2,
+.stats h3 {
+  text-align: center;
+}
+
+.stats__grid {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (min-width: 40em) {
+  .stats__grid {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+.stats__title {
+  font-size: 1.25rem;
+  margin: 0px 0px 1.25rem;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #fafafa;
+}
+
+@media (max-width: 39.9375em) {
+  .stats__title {
+    font-size: 0.875rem;
+  }
+}
+
+.stats__number {
+  margin: 0;
+  text-align: left;
+  font-size: 3.25rem;
+  color: #ce002d;
+}
+
+@media (max-width: 39.9375em) {
+  .stats__number {
+    font-size: 32px;
+  }
 }
 
 .faq {

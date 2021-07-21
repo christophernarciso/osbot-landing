@@ -19,25 +19,109 @@
     }
 
     &__grid {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        flex: 1;
-        justify-content: center;
+        // display: flex;
+        // flex-direction: row;
+        // flex-wrap: wrap;
+        // flex: 1;
+        // justify-content: center;
 
-        @include breakpoint-up(large) {
-            justify-content: space-between;
-        }
+        // @include breakpoint-up(large) {
+        //     justify-content: space-between;
+        // }
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
     }
 
     &__heading {
         text-align: center;
         width: 100%;
 
-        @include breakpoint-up(large) {
-            text-align: left;
+        // @include breakpoint-up(large) {
+        //     text-align: left;
+        // }
+
+    }
+
+    &__pricing {
+        text-align: center;
+        background: rgba(20, 20, 20, 0.2);
+        color: $white;
+        margin: 10px;
+        border-radius: 10px;
+        border: 2px solid $maroon;
+        min-width: 275px;
+
+        @include breakpoint-down(medium) {
+            min-height: 500px;
         }
 
+        @include breakpoint-up(large) {
+            min-height: 550px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 0.775rem 1.7875rem;
+            background: $darkRed;
+            border: 0;
+            border-radius: 8px;
+            cursor: pointer;
+            color: $white;
+            font-weight: 400;
+            font-size: $font-sm;
+            transition: opacity 300ms ease-in-out;
+
+            &:hover {
+                opacity: 0.75;
+            }
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 40px 0;
+
+            li {
+                text-align: center;
+                margin: 20px 30px;
+            }
+        }
+
+        h1 {
+            letter-spacing: 1px;
+            margin: 15px 0 0;
+        }
+
+        h4 {
+            margin: 20px 0 0;
+        }
+
+        // Incase we want title styling?
+        .vip {
+            // color: $purple;
+            font-size: $font-lg;
+        }
+
+        .sponsor {
+            color: $darkCyan;
+        }
+
+        .popular {
+            color: $darkRed;
+            margin: 0;
+            text-shadow: 0 5px 15px rgba(245, 107, 107, 0.4);
+            // color: rgba(255, 255, 255, 1);
+
+            // h1 {
+            //     margin-top: 10px;
+            // }
+        }
+
+        button {
+            margin-bottom: 30px;
+        }
     }
 
     &__list {
@@ -196,7 +280,7 @@
     }
 
     ion-icon {
-        color: yellow;
+        color: $veryLightGray;
         vertical-align: middle;
         font-size: $font-lg;
     }

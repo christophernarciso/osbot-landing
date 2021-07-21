@@ -42,14 +42,6 @@ for (var link of mobileLinks) {
   });
 }
 
-// When the user clicks on the button, smooth scroll to the top of the document
-// Credit: https://gist.github.com/ricardozea/abb9f98a19f6d04a0269
-function topFunction() {
-  $("html, body").animate({
-    scrollTop: $('#main').offset().top
-  }, 150);
-}
-
 //Smooth scrolling with links
 $('a[href*="#"]')
   // Remove links that don't actually link to anything

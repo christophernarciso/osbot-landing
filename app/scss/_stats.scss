@@ -1,0 +1,46 @@
+.stats {
+
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+
+    h2,
+    h3 {
+        text-align: center;
+    }
+
+    &__grid {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+
+        @include breakpoint-up(medium) {
+            justify-content: space-evenly;
+        }
+    }
+
+    &__title {
+        font-size: $font-lg;
+        // line-height: 1.9;
+        margin: 0px 0px 1.25rem;
+        letter-spacing: 0.1px;
+        text-align: left;
+        color: $veryLightGray;
+
+        @include breakpoint-down(small) {
+            font-size: $font-sm;
+        }
+    }
+
+    &__number {
+        margin: 0;
+        text-align: left;
+        font-size: $font-xl;
+        color: lighten($darkRed, 5%);
+
+        @include breakpoint-down(small) {
+            font-size: 32px;
+        }
+    }
+}

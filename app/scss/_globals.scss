@@ -76,6 +76,7 @@ a:hover {
     // max-width: 75.375rem;
     max-width: 85.375rem;
     margin: 0 auto;
+    border: 0;
 
     // Padding modifiers
     &--pxy {
@@ -172,9 +173,44 @@ button,
 
     &:hover {
         opacity: 0.75;
+        color: rgba(255, 255, 255, 1);
+        box-shadow: 0 5px 15px rgba(255, 34, 53, 0.4);
     }
 }
 
+.divider {
+    border-bottom: 1px solid $darkRed;
+    margin-top: 25px;
+}
+
+.center-link {
+    text-align: center;
+
+    a {
+        display: inline-block;
+        text-align: center;
+    }
+}
+
+.scrollup-btn {
+    width: 100px;
+    // padding: 0.775rem 1.7875rem;
+    // background: linear-gradient(to right, $roseRed, $darkBlue);
+    background: $darkRed;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    color: $white;
+    font-weight: 400;
+    font-size: $font-sm;
+    transition: opacity 300ms ease-in-out;
+
+    &:hover {
+        opacity: 0.75;
+        color: rgba(255, 255, 255, 1);
+        box-shadow: 0 5px 15px rgba(255, 34, 53, 0.4);
+    }
+}
 
 
 // Visibility
