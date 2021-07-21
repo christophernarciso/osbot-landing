@@ -255,7 +255,7 @@ a:hover {
 }
 
 .container {
-  max-width: 69.375rem;
+  max-width: 85.375rem;
   margin: 0 auto;
 }
 
@@ -597,6 +597,7 @@ ion-icon {
 @media (min-width: 64em) {
   .hero {
     padding-bottom: 7rem;
+    padding-top: 7rem;
   }
 }
 
@@ -629,9 +630,9 @@ ion-icon {
 
 @media (min-width: 64em) {
   .hero__image {
-    -webkit-box-flex: 3;
-        -ms-flex: 3;
-            flex: 3;
+    -webkit-box-flex: 2.5;
+        -ms-flex: 2.5;
+            flex: 2.5;
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
@@ -1115,10 +1116,16 @@ ion-icon {
 .accordion .accordion-content {
   opacity: 0;
   max-height: 0;
-  overflow: hidden;
+  overflow: auto;
   -webkit-transition: opacity 200ms linear, max-height 200ms linear;
   transition: opacity 200ms linear, max-height 200ms linear;
   will-change: opacity, max-height;
+}
+
+@media (min-width: 64em) {
+  .accordion .accordion-content {
+    overflow: hidden;
+  }
 }
 
 .accordion .accordion-content p {
